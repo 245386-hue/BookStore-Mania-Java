@@ -1,25 +1,25 @@
-BookStore Mania 📚
+BookStore Mania
 
-A Java Swing based Book Store Management System featuring book categories, wishlist, shopping cart, login/register system, account page, and interactive graphical user interface with image support.
+A modern Java Swing Book Store Management System featuring interactive GUI components, book categories, shopping cart, wishlist, login/register system, and account management.
 
-Features ✨
-User Friendly GUI using Java Swing
-Browse Books by Categories
-Best Sellers & Trending Sections
-Add to Cart Functionality
-Wishlist Management
-Login & Registration Pages
-Account/Profile Page
-Shopping Cart Checkout
-Image Support for Books
-Organized Object-Oriented Structure
-Technologies Used 🛠️
+✨ Features
+🖥️ User-Friendly Java Swing Interface
+📖 Browse Books by Categories
+🔥 Best Sellers & Trending Sections
+🛒 Add to Cart Functionality
+❤️ Wishlist Management
+👤 Login & Registration System
+📂 Account/Profile Page
+💳 Checkout System
+🖼️ Book Image Support
+🧩 Object-Oriented Design
+🛠️ Technologies Used
 Java
 Java Swing
 AWT
-OOP Concepts
-Project Structure 📂
-bookstore/
+Object-Oriented Programming (OOP)
+📂 Project Structure
+BookStore-Mania-Java/
 │
 ├── src/
 │   └── bookstore/
@@ -37,21 +37,43 @@ bookstore/
 ├── images/
 │   ├── book1.jpg
 │   ├── book2.jpg
+│   ├── book3.jpg
 │   └── ...
 │
+├── bin/
+│
 └── README.md
-How to Run ▶️
-Compile
+▶️ How to Run
+1️⃣ Compile the Project
 javac -d bin src/bookstore/*.java
-Run
+2️⃣ Run the Application
 java -cp bin bookstore.BookStoreMania
-Requirements ⚙️
-JDK 21 or above
+⚙️ Requirements
+JDK 21 or Above
 VS Code / Eclipse / IntelliJ IDEA
-Notes 📌
-Make sure the images folder exists in the project directory.
-Add your own book images inside the images folder.
-Image paths are managed in BookData.java.
-Author 👨‍💻
+🖼️ Images Setup
+
+Create an images folder in the main project directory and place your book images inside it.
+
+Example:
+
+images/
+├── book1.jpg
+├── book2.jpg
+├── book3.jpg
+└── ...
+
+Image paths are configured in:
+
+BookData.java
+📌 Notes
+Ensure image names match the paths written in BookData.java
+Supports .jpg and .png images
+Built for educational and learning purposes
+👨‍💻 Author
 
 Aimen Nadeem
+
+📄 License
+
+This project is for educational purposes only.
